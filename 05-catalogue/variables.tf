@@ -9,12 +9,8 @@ variable "env" {
 variable "common_tags" {
   default = {
     Project = "roboshop"
-    Component = "MongoDB"
+    Component = "catalogue"
     Environment = "DEV"
     Terraform = "true"
   }
-}
-
-variable "zone_name" {
-  default = "joindevops.online"
 }
