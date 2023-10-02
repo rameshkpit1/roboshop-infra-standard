@@ -73,6 +73,16 @@
       purpose: App ALB should accept traffic on 80 from vpn
     - name: app_alb_web
       purpose: App ALB should accept traffic on 80 from web
+    - name: app_alb_catalogue
+      purpose: App ALB should accept traffic on 80 from catalogue
+    - name: app_alb_user
+      purpose: App ALB should accept traffic on 80 from user
+    - name: app_alb_cart
+      purpose: App ALB should accept traffic on 80 from cart
+    - name: app_alb_shipping
+      purpose: App ALB should accept traffic on 80 from shipping
+    - name: app_alb_payment
+      purpose: App ALB should accept traffic on 80 from payment
   - web_sg:
     - name: web_vpn
       purpose: web should accept traffic on 22 from vpn
